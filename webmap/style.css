@@ -1,0 +1,73 @@
+html, body { height: 100%; margin: 0; }
+#map { height: 100%; }
+
+
+.legend {
+  background: white;
+  padding: 10px 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.legend h4 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.legend-title {
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+.legend .dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.legend .line {
+  display: inline-block;
+  width: 24px;
+  height: 0;
+  border-top: 3px dashed;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.legend .line.solid {
+  border-top-style: solid;
+}
+
+.info-box {
+  background: white;
+  padding: 10px 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  max-width: 280px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.info-box h3 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.info-box p {
+  margin: 0 0 6px;
+}
+
+.info-box .note {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .info-box { max-width: 200px; font-size: 12px; }
+}
